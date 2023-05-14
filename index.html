@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>FoodTime</title>
+  </head>
+  <body>
+    <header class="header py-4">
+      <div class="divide-y divide-slate-300 flex flex-col gap-4">
+          <nav class="flex flex-col gap-6 lg:gap-0 lg:flex-row items-center justify-around">
+            <div class="relative">
+              <h2 class="text-2xl logo">FoodTime</h2>
+              <img class="absolute bottom-7 right-0" src="./Assets//Images/Vector.png" alt="">
+            </div>
+            <div class="flex items-center gap-16">
+              <a class="hover:bg-orange-500 p-1 rounded hover:text-white" href="">Home</a>
+              <a class="hover:bg-orange-500 p-1 rounded hover:text-white" href="">Blog</a>
+              <a class="hover:bg-orange-500 p-1 rounded hover:text-white" href="">About us</a>
+  
+              <select class="border-0 bg-gray-100 option-texts uppercase hover:bg-orange-500 rounded hover:text-white" id="language">
+                <option>En</option>
+                <option>Ar</option>
+                <option>Bn</option>
+                <option>Id</option>
+              </select>
+            </div>
+            <div class="flex items-center gap-6">
+              <button class="login">Login</button>
+              <div class="relative">
+                  <img class="cart" src="./Assets//Images/Vector-cart.png" alt="">
+                  <p class="absolute bottom-9 left-8 cart-amount text-white p-1 h-6 w-6 flex items-center justify-center rounded-full">2</p>
+              </div>
+            </div>
+          </nav>
+  
+          <div class="grid grid-cols-1 p-10 lg:grid-cols-2 items-center justify-around">
+              <div class="flex flex-col gap-7 w-full p-4 lg:p-0 lg:w-2/3 mx-auto">
+                  <h3 class="banner-h1 text-2xl lg:text-5xl">Order food online from your favourite local restaurants.</h3>
+                  <p class="banner-p">Freshly made food delivered to your door.</p>
+                  <div class="flex items-center border-2 rounded-3xl justify-between">
+                      <div class="flex">
+                          <img class="w-9 h-9 m-1 animate-pulse" src="./Assets//Images//Ellipse 1.png" alt="">
+                          <input class="border-0 bg-gray-100 search-input" type="text" placeholder="Enter your location">
+                      </div>
+                      <div class="flex gap-2 items-center justify-center search p-3 w-36 rounded-3xl">
+                          <img class="w-4 h-4" src="./Assets/Images/search.png" alt="">
+                          <button>Search</button>
+                      </div>
+                  </div>
+              </div>
+              <div>
+                  <img src="./Assets/Images/image 1.png" alt="">
+              </div>
+          </div>
+      </div>
+
+      <div>
+        <div class="lg:block hidden absolute leaf-1 hover:animate-ping">
+            <img src="./Assets/Images/—Pngtree—hand-painted noise green leaf element_4054582 1.png" alt="">
+        </div>
+        <div class="hidden lg:block absolute top-10 right-20">
+            <img src="./Assets/Images/—Pngtree—hand-painted noise green leaf element_4054582 1.png" alt="">
+        </div>
+        <div class="hidden lg:block absolute sub-plate">
+            <img class="hover:animate-pulse" src="./Assets/Images/NicePng_plate-of-food-png_546030 1.png" alt="">
+        </div>
+        <div class="hidden animate-bounce lg:block absolute info flex flex-col gap-1 items-center justify-center p-2 bg-white w-44 text-center rounded">
+            <div class="flex items-center justify-center gap-2">
+                <img class="h-6" src="./Assets/Images/Vector-right.png" alt="">
+                <h4 class="vector-right text-xl">200k+</h4>
+            </div>
+            <p class="vector-right-p">People Delivered</p>
+        </div>
+      </div>
+    </header>
+
+    <section>
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-around lg:p-0 p-6">
+            <div class="lg:w-2/4 flex flex-col gap-3 mx-auto">
+                <h3 class="section-h3 text-4xl">Explore your favourite city’s food.</h3>
+                <p class="section-p">Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique. Non ligula tristique ut ut libero sit convallis maecenas. At egestas auctor porta mattis.</p>
+                <div class="flex items-center justify-center section-btn w-40 gap-3 p-1 rounded-3xl">
+                    <button class="text-xl text-white">Explore</button>
+                    <img src="./Assets/Images/Vector-arrow.png" alt="">
+                </div>
+            </div>
+            <div class="relative flex">
+                <img src="./Assets/Images/image 2.png" alt="">
+                <img class="absolute bottom-25" src="./Assets/Images/too-much-orders-contacless-delivery-service-during-quarantine-man-delivers-food-during-isolation-wearing-helmet-face-mask-taking-food-bike-isolated-white-wall-safety-hurrying-up copy 1.png" alt="">
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
